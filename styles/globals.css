@@ -17,3 +17,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+a > svg {
+  display: inline;
+}
