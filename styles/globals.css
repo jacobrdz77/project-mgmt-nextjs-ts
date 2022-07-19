@@ -18,6 +18,6 @@ a {
   box-sizing: border-box;
 }
 
-a > svg {
+div > svg {
   display: inline;
 }
