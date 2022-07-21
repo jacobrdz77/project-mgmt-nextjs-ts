@@ -6,8 +6,8 @@ import Avatar from "./Avatar";
 
 const NavBar: React.FC = () => {
   return (
-    <nav className="bg-primary sticky top-0 left-0 w-[208px] h-screen m-0 text-center text-white">
-      <div className="h-full relative">
+    <nav className="grow-0 sticky top-0 left-0 w-[208px] h-screen m-0 text-center bg-primary  text-white">
+      <div>
         {/* LOGO */}
         <div className="mt-4 mb-5 mx-auto text-[30px]">
           selfwork<span className="text-green-400">.</span>
@@ -80,7 +80,7 @@ const NavBar: React.FC = () => {
           </div>
         </div>
         {/* User Profile */}
-        <div className="w-full mt-[620px]">
+        <div className="w-full mt-3">
           <div className="w-[164px] flex items-center justify-start mx-auto">
             <Avatar userName={"Jacob Rodriguez"} />
             <a href="/profile" className="ml-3 hover:underline">
