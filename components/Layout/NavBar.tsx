@@ -1,4 +1,3 @@
-/* eslint-disable */
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -27,9 +26,9 @@ const NavBar: React.FC = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="feather feather-check-circle"
                 >
                   <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
@@ -66,9 +65,9 @@ const NavBar: React.FC = () => {
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   className="feather feather-user"
                 >
                   <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>

@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         primary: "#241932",
         button: "#312244",
+        buttonHover: "#4d356b",
       },
     },
   },
